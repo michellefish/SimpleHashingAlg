@@ -24,7 +24,6 @@ The program should hash the file specified in the first argument when called. If
 			//move the first 10 bytes to the end
 			hash <- hash[10:] + hash[:10]
 	
-	
 	//your hash may contain non-printable characters, so make sure you hex encode it
 	print hex(hash)
 
